@@ -91,7 +91,7 @@ unzip -p <apk> classes*.dex 2>/dev/null | strings | grep -oE "2\.3-v1\.8" | head
   [nk521's CL gist](https://gist.github.com/nk521/c476c7fef884fed3226e6bc809a80e8c),
   [librefin-in/cl-specification](https://github.com/librefin-in/cl-specification).
 - ELI5 pages: [The invisible library inside every UPI app](https://cashlessconsumer.zo.space/npci-cl-evolution)
-  · [GPay's expired UPI certificate, ELI5](https://cashlessconsumer.zo.space/npci-expired-cert)
+  · [GPay's expired UPI certificate, ELI5](https://cashlessconsumer.zo.space/npci-expired-cert)- Cyber gateway: [cyber.cashlessconsumer.in/pages/npci-cl.html](https://cyber.cashlessconsumer.in/pages/npci-cl.html)
 
 ## License
 
