@@ -1,0 +1,1886 @@
+{
+ "bhim-1.0": {
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "LITE_"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "nfc_tap": [
+   "NFC"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "Reserve",
+   "reserve"
+  ],
+  "block": [
+   "BlockC",
+   "BlockP",
+   "BlockS"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "deviceId"
+  ],
+  "sim_retriever": [
+   "getSimSerial"
+  ],
+  "qr": [
+   "QRCode"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpS",
+   "resendOTP"
+  ],
+  "version_flag": [
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "bhim-2.3.1": {
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteDBS"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "nfc_tap": [
+   "TAP_AND_PAY"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "Reserve",
+   "reserve"
+  ],
+  "mandate_autopay": [
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BlockC",
+   "BlockN",
+   "BlockP",
+   "BlockS"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "fingerprint"
+  ],
+  "sim_retriever": [
+   "getSimSerial"
+  ],
+  "qr": [
+   "QRCode"
+  ],
+  "crypto_prims": [
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate"
+  ],
+  "otp_autoread": [
+   "OTP_"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "com.phonepe.app@25.05.16.0": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteSync",
+   "LiteTNCC",
+   "LiteVPAS"
+  ],
+  "credit_line": [
+   "CREDIT_LINE",
+   "CreditLine",
+   "Creditline",
+   "creditLine",
+   "creditline"
+  ],
+  "conversational": [
+   "HELLO_"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "UPI_CIRCLE",
+   "delegate",
+   "secondary"
+  ],
+  "international": [
+   "International",
+   "international"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockA",
+   "BlockB",
+   "BlockC",
+   "BlockD",
+   "BlockE",
+   "BlockF",
+   "BlockG",
+   "BlockH",
+   "BlockI"
+  ],
+  "device_binding": [
+   "DeviceBinding",
+   "deviceId",
+   "devicebinding"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "RSA"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "X509"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpC",
+   "OtpF",
+   "OtpR",
+   "otpH",
+   "otpR",
+   "otpV"
+  ],
+  "biometric": [
+   "biometric"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "com.phonepe.app@25.09.19.0": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteAFAB",
+   "LiteAFAN",
+   "LiteVPAS"
+  ],
+  "credit_line": [
+   "CREDIT_LINE",
+   "CreditLine",
+   "Creditline",
+   "creditLine",
+   "creditline"
+  ],
+  "conversational": [
+   "HELLO_"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "UPI_CIRCLE",
+   "delegate",
+   "secondary"
+  ],
+  "international": [
+   "international"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockD",
+   "BlockE",
+   "BlockF",
+   "BlockG",
+   "BlockI",
+   "BlockJ",
+   "BlockL"
+  ],
+  "device_binding": [
+   "DeviceBinding",
+   "devicebinding"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "RSA"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "X509"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "otpR"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "com.phonepe.app@26.01.02.0": {
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteAFAB",
+   "LiteAFAN",
+   "LiteVPAS"
+  ],
+  "credit_line": [
+   "CREDIT_LINE",
+   "CreditLine",
+   "Creditline",
+   "creditLine",
+   "creditline"
+  ],
+  "conversational": [
+   "HELLO_"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "UPI_CIRCLE",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "Reserve",
+   "reserve"
+  ],
+  "international": [
+   "International",
+   "international"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockD",
+   "BlockE",
+   "BlockF",
+   "BlockG",
+   "BlockH",
+   "BlockI",
+   "BlockJ"
+  ],
+  "device_binding": [
+   "DeviceBinding",
+   "devicebinding"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "RSA"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "X509"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpC",
+   "OtpR",
+   "otpR"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "com.phonepe.app@26.09.11.0": {
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteAFAB",
+   "LiteAFAN",
+   "LiteVPAS"
+  ],
+  "credit_line": [
+   "CREDIT_LINE",
+   "CreditLine",
+   "Creditline",
+   "creditLine",
+   "creditline"
+  ],
+  "conversational": [
+   "HELLO_"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "UPI_CIRCLE",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "Reserve",
+   "reserve"
+  ],
+  "international": [
+   "international"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockD",
+   "BlockE",
+   "BlockF",
+   "BlockG",
+   "BlockI",
+   "BlockJ",
+   "BlockL"
+  ],
+  "device_binding": [
+   "DeviceBinding",
+   "devicebinding"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "RSA"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "X509"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "otpR",
+   "otpT"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "biometric"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "gpay-210.1.2": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "GetLite",
+   "LITE_"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "credit_line": [
+   "CreditLine"
+  ],
+  "nfc_tap": [
+   "NFC",
+   "TAP_AND_PAY",
+   "TapAndPay"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "reserve"
+  ],
+  "international": [
+   "International"
+  ],
+  "mandate_autopay": [
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockM",
+   "BlockN",
+   "BlockP",
+   "BlockS",
+   "blockA",
+   "blockS",
+   "block_"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceId",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpG",
+   "OtpL",
+   "OtpM",
+   "OtpP",
+   "OtpR"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "FingerprintManager",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "gpay-213.1.8": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "GetLite",
+   "LITE_"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "credit_line": [
+   "CreditLine"
+  ],
+  "nfc_tap": [
+   "NFC",
+   "TAP_AND_PAY",
+   "TapAndPay"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "reserve"
+  ],
+  "international": [
+   "International"
+  ],
+  "mandate_autopay": [
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockM",
+   "BlockN",
+   "BlockP",
+   "BlockS",
+   "blockA",
+   "blockS",
+   "block_"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceId",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpG",
+   "OtpL",
+   "OtpM",
+   "OtpP",
+   "OtpR"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "FingerprintManager",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "gpay-216.1.1": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "GetLite",
+   "LITE_"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "credit_line": [
+   "CreditLine"
+  ],
+  "nfc_tap": [
+   "NFC",
+   "TAP_AND_PAY",
+   "TapAndPay"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "reserve"
+  ],
+  "international": [
+   "International"
+  ],
+  "mandate_autopay": [
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockM",
+   "BlockN",
+   "BlockP",
+   "BlockS",
+   "blockA",
+   "blockS",
+   "block_"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceId",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpG",
+   "OtpL",
+   "OtpM",
+   "OtpP",
+   "OtpR"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "FingerprintManager",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "gpay-220.1.2": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "GetLite",
+   "LITE_"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "credit_line": [
+   "CreditLine"
+  ],
+  "nfc_tap": [
+   "NFC",
+   "TAP_AND_PAY",
+   "TapAndPay"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "reserve"
+  ],
+  "international": [
+   "International"
+  ],
+  "mandate_autopay": [
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockM",
+   "BlockN",
+   "BlockP",
+   "BlockS",
+   "blockA",
+   "blockS",
+   "block_"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceId",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpG",
+   "OtpL",
+   "OtpM",
+   "OtpP",
+   "OtpR"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "FingerprintManager",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "gpay-225.1.3": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "GetLite",
+   "LITE_"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "credit_line": [
+   "CreditLine"
+  ],
+  "nfc_tap": [
+   "NFC",
+   "TAP_AND_PAY",
+   "TapAndPay"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "reserve"
+  ],
+  "international": [
+   "International"
+  ],
+  "mandate_autopay": [
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockM",
+   "BlockN",
+   "BlockP",
+   "BlockS",
+   "blockA",
+   "blockS",
+   "block_"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceId",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpG",
+   "OtpL",
+   "OtpM",
+   "OtpP",
+   "OtpR"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "FingerprintManager",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "gpay-latest": {
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge"
+  ],
+  "lite_strings": [
+   "GetLite"
+  ],
+  "credit_line": [
+   "CreditLine"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "reserve"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockC",
+   "BlockL",
+   "BlockM",
+   "BlockN",
+   "BlockP",
+   "BlockS",
+   "blockA",
+   "blockS",
+   "block_"
+  ],
+  "aadhaar": [
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "phonepe-23.12.22.0": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "NMPIN"
+  ],
+  "lite_strings": [
+   "LITE_"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "upi_circle": [
+   "secondary"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "aadhaar"
+  ],
+  "otp_autoread": [
+   "OtpM"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "phonepe-24.01.19.0": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION",
+   "LITE_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteCPCH",
+   "LiteDBS",
+   "LiteJDBC",
+   "LiteJDBCL",
+   "LiteKSA",
+   "LiteSync",
+   "LiteTNCC",
+   "LiteUIV"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "conversational": [
+   "HELLO_"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "Reserve",
+   "reserve"
+  ],
+  "international": [
+   "FOREX",
+   "International",
+   "international"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockD",
+   "BlockE",
+   "BlockF",
+   "BlockG",
+   "BlockH",
+   "BlockI",
+   "BlockL"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceId",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode",
+   "scanAndPay"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "PBKDF",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate",
+   "trustStore"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpB",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpF",
+   "OtpH",
+   "OtpI",
+   "OtpL"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "FingerprintManager",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "phonepe-24.04.19.0": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteARPCS",
+   "LiteCPCH",
+   "LiteDBS",
+   "LiteJDBC",
+   "LiteJDBCL",
+   "LiteKSA",
+   "LiteSync",
+   "LiteTNCC"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "credit_line": [
+   "CREDIT_LINE",
+   "CreditLine",
+   "creditLine"
+  ],
+  "conversational": [
+   "HELLO_"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "Reserve",
+   "reserve"
+  ],
+  "international": [
+   "FOREX",
+   "International",
+   "international"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockD",
+   "BlockE",
+   "BlockF",
+   "BlockG",
+   "BlockH",
+   "BlockI",
+   "BlockL"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceId",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode",
+   "scanAndPay"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "PBKDF",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate",
+   "trustStore"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpB",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpF",
+   "OtpH",
+   "OtpI",
+   "OtpL"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "FingerprintManager",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "phonepe-24.07.26.0": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteARPCS",
+   "LiteCPCH",
+   "LiteCTAA",
+   "LiteJDBC",
+   "LiteJDBCL",
+   "LiteKSA",
+   "LiteSync",
+   "LiteTNCC",
+   "LiteVPAS"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "credit_line": [
+   "CREDIT_LINE",
+   "CreditLine",
+   "Creditline",
+   "creditLine",
+   "creditline"
+  ],
+  "conversational": [
+   "HELLO_"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "Reserve",
+   "reserve"
+  ],
+  "international": [
+   "FOREX",
+   "International",
+   "international"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockD",
+   "BlockE",
+   "BlockF",
+   "BlockG",
+   "BlockH",
+   "BlockI",
+   "BlockJ"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceBinding",
+   "deviceId",
+   "devicebinding",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode",
+   "scanAndPay"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "PBKDF",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate",
+   "trustStore"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpB",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpF",
+   "OtpH",
+   "OtpI",
+   "OtpL"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ },
+ "phonepe-24.11.29.0": {
+  "cl_lite_version": [
+   "LITE_CL_VERSION"
+  ],
+  "pin_pad": [
+   "pinactivitycomponent"
+  ],
+  "cl_main": [
+   "CommonLibrary",
+   "commonlibrary"
+  ],
+  "cl_services": [
+   "CLRemoteService",
+   "getChallenge",
+   "getCredential",
+   "registerApp"
+  ],
+  "cred_types": [
+   "ATMPIN",
+   "CREDTYPE",
+   "HOTP",
+   "NMPIN",
+   "TOTP"
+  ],
+  "lite_strings": [
+   "LITE_",
+   "LiteARPCS",
+   "LiteCPCH",
+   "LiteCTAA",
+   "LiteKSA",
+   "LiteSync",
+   "LiteTNCC",
+   "LiteVPAS",
+   "LiteVPAV"
+  ],
+  "atm_123pay": [
+   "ATMPIN"
+  ],
+  "credit_line": [
+   "CREDIT_LINE",
+   "CreditLine",
+   "Creditline",
+   "creditLine",
+   "creditline"
+  ],
+  "conversational": [
+   "HELLO_"
+  ],
+  "upi_circle": [
+   "Delegate",
+   "UPI_CIRCLE",
+   "delegate",
+   "secondary"
+  ],
+  "reserve_pay": [
+   "Reserve",
+   "reserve"
+  ],
+  "international": [
+   "FOREX",
+   "International",
+   "international"
+  ],
+  "mandate_autopay": [
+   "AUTOPAY",
+   "Mandate",
+   "mandate"
+  ],
+  "block": [
+   "BLOCK_",
+   "BlockB",
+   "BlockC",
+   "BlockD",
+   "BlockE",
+   "BlockF",
+   "BlockG",
+   "BlockI",
+   "BlockJ",
+   "BlockL"
+  ],
+  "device_binding": [
+   "DEVICE_ID",
+   "DeviceBinding",
+   "deviceBinding",
+   "deviceId",
+   "devicebinding",
+   "fingerprint"
+  ],
+  "aadhaar": [
+   "AADHAAR",
+   "Aadhaar",
+   "aadhaar"
+  ],
+  "sim_retriever": [
+   "SmsRetriever",
+   "getSimSerial",
+   "smsRetriever"
+  ],
+  "qr": [
+   "QRCode",
+   "scanAndPay"
+  ],
+  "compound_version": [
+   "2.3-v1.8"
+  ],
+  "crypto_prims": [
+   "AES",
+   "CBC",
+   "GCM",
+   "OAEP",
+   "PBKDF",
+   "RSA",
+   "SHA-256",
+   "SHA256"
+  ],
+  "cert_pinning": [
+   "Certificate",
+   "TrustManager",
+   "X509",
+   "certificate",
+   "trustStore"
+  ],
+  "otp_autoread": [
+   "OTP_",
+   "OtpA",
+   "OtpB",
+   "OtpC",
+   "OtpD",
+   "OtpE",
+   "OtpF",
+   "OtpH",
+   "OtpI",
+   "OtpL"
+  ],
+  "biometric": [
+   "BIOMETRIC",
+   "Biometric",
+   "biometric"
+  ],
+  "version_flag": [
+   "sdkVersion",
+   "versionCode",
+   "versionName"
+  ],
+  "npci_pkg": [
+   "Lorg/npci"
+  ],
+  "npci_dot": [
+   "org.npci"
+  ]
+ }
+}

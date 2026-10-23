@@ -1,0 +1,125 @@
+{
+ "airtel-thanks-2026": {
+  "n_files": 29,
+  "counts": {
+   "rasp_sdk": 0,
+   "root": 137,
+   "hook": 163,
+   "emulator": 38,
+   "debug": 9,
+   "installsrc": 92,
+   "screen": 13,
+   "access": 25,
+   "overlay": 0,
+   "vpn": 0,
+   "integrity": 4,
+   "clone": 5
+  },
+  "hits": {
+   "root": [
+    "/su",
+    "magisk",
+    "supersu",
+    "superuser"
+   ],
+   "hook": [
+    "frida",
+    "substrate",
+    "xposed"
+   ],
+   "emulator": [
+    "genymotion",
+    "goldfish",
+    "qemu.",
+    "ranchu"
+   ],
+   "debug": [
+    "ro.debuggable",
+    "ro.secure",
+    "tracerpid"
+   ],
+   "installsrc": [
+    "installsource",
+    "packageinstaller",
+    "repackag",
+    "sideload"
+   ],
+   "screen": [
+    "mediaprojection",
+    "screencaptur",
+    "screenmirror"
+   ],
+   "access": [
+    "accessibilityservice",
+    "getenabledaccessibility"
+   ],
+   "integrity": [
+    "integrityverdict"
+   ],
+   "clone": [
+    "com.lbe.parallel",
+    "dualspace",
+    "parallel_space",
+    "shelter"
+   ]
+  }
+ },
+ "whatsapp-2026": {
+  "n_files": 15,
+  "counts": {
+   "rasp_sdk": 0,
+   "root": 18,
+   "hook": 14,
+   "emulator": 13,
+   "debug": 0,
+   "installsrc": 29,
+   "screen": 371,
+   "access": 7,
+   "overlay": 0,
+   "vpn": 0,
+   "integrity": 6,
+   "clone": 2
+  },
+  "hits": {
+   "root": [
+    "/su",
+    "bin/su",
+    "superuser",
+    "xbin/su"
+   ],
+   "hook": [
+    "frida",
+    "xposed"
+   ],
+   "emulator": [
+    "genymotion",
+    "goldfish",
+    "qemu.",
+    "ranchu"
+   ],
+   "installsrc": [
+    "getinstaller",
+    "installsource",
+    "packageinstaller",
+    "repackag"
+   ],
+   "screen": [
+    "screen shar",
+    "screen_shar",
+    "screenshar",
+    "virtualdisplay"
+   ],
+   "access": [
+    "accessibilityservice",
+    "getenabledaccessibility"
+   ],
+   "integrity": [
+    "playintegrity",
+    "safetynet"
+   ],
+   "clone": [
+    "shelter"
+   ]
+  }
+ }
+}

@@ -1,0 +1,5 @@
+data/apks/
+data/extracted/
+*.xapk
+*.apk
+__pycache__/
